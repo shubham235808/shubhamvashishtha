@@ -1,23 +1,19 @@
-# Shubham Vashishtha — Professional Portfolio
+# Shubham Vashishtha — professional portfolio
 
-A responsive static professional portfolio hosted through GitHub Pages.
+Public static website: https://shubham235808.github.io/shubhamvashishtha/
 
-## Deployment
+## Content
+- Executive profile, experience, education, recognition and credentials in index.html
+- Seven conceptual architecture showcases in projects/
+- Seven engineering guides in insights/
+- Public print-ready résumé in resume.html (browser Print / Save as PDF)
+- Shared detail theme in assets/
 
-In repository Settings → Pages, select Deploy from a branch, main, and / (root), then Save.
+## Validation
+Run `python scripts/validate_site.py` from the repository root. GitHub Actions runs the same checks on main pushes and pull requests. Pages deploys independently; a passing validator does not establish browser compatibility or external-link health.
 
-Expected URL: https://shubham235808.github.io/shubhamvashishtha/
+## Maintenance
+Update sitemap.xml when adding indexable pages. Keep credentials aligned with issuer records, distinguish conceptual designs from completed project outcomes, and avoid private contact details or customer-specific infrastructure. Review technical guides before external promotion.
 
-## Development
-
-Open index.html in a browser for local preview. No build dependencies are required for this initial version.
-
-## Content roadmap
-
-- Verified professional experience and career timeline
-- Verified certifications and credential links
-- Approved architecture case studies and diagrams
-- Professional photograph, résumé and social links
-- Technical articles and training portfolio
-
-Do not publish confidential customer information, internal infrastructure details, credentials or unverified professional claims.
+## Release review
+Professional portrait, official per-credential badge artwork and earned badge URLs, current employment transition date, exact migration contributions, binary résumé uploads and Search Console ownership are owner-supplied items. Do not infer these.

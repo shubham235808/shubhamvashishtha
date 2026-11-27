@@ -29,7 +29,7 @@ class Page(HTMLParser):
             self.canonical.append(a.get("href"))
         if tag == "meta" and a.get("name") == "description":
             self.description = bool(a.get("content"))
-paths = [root / "index.html", root / "404.html", *sorted((root / "projects").glob("*.html")), *sorted((root / "insights").glob("*.html"))]
+paths = [root / "index.html", root / "resume.html", root / "404.html", *sorted((root / "projects").glob("*.html")), *sorted((root / "insights").glob("*.html"))]
 pages = {p.resolve(): Page(p.read_text(encoding="utf-8")) for p in paths}
 errors = []
 checks = 0
